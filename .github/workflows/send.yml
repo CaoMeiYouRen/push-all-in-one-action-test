@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: "执行 Push All In One"
-        uses: ./
+        uses: CaoMeiYouRen/push-all-in-one-action@master
         env:
           SEND_TITLE: ${{secrets.SEND_TITLE}}
           SEND_DESP: ${{secrets.SEND_DESP}}
