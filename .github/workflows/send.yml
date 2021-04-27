@@ -2,7 +2,7 @@ name: "Send"
 
 on:
   schedule:
-    - cron: "0 5 * * 4" # UTC+8 每周四 13 点执行，修改时注意时区(默认时区为 UTC+0)
+    - cron: "30 4 * * 4" # UTC+8 每周四 13 点执行，修改时注意时区(默认时区为 UTC+0)
   watch:
     types: started
   workflow_dispatch:
